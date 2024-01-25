@@ -1,8 +1,7 @@
 # 数据源配置
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/energy_dongli
-#    url: jdbc:postgresql://121.37.190.172:8099/energy_dongli
+    url: jdbc:postgresql://localhost:5432/energy_management
     username: postgres
     password: postgres
   redis:
@@ -15,8 +14,6 @@ server:
 rtdb:
   host: localhost
   port: 8086
-#  host: 192.168.8.122
-#  port: 8086
 
 upload:
   #  path: /Users/fanxinfu/Documents/MyWork/dingzhuo/upload
@@ -32,7 +29,7 @@ govReport:
 
 mqtt:
   host: tcp://localhost:30509
-  username: dingzhuo
-  password: dingzhuo@2022
-  subhbt: iot-2/evt/waconn/#
+  username: username
+  password: password
+  subhbt: subhbt
   subhbtqos: 0

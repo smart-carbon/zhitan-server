@@ -15,7 +15,6 @@
     <module>energy_management_server</module>
     <module>basic</module>
     <module>basic-data</module>
-    <module>compute-engine</module>
   </modules>
   <packaging>pom</packaging>
 
